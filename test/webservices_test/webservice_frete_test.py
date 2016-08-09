@@ -26,9 +26,9 @@
 ###############################################################################
 
 from unittest import TestCase
-from pysigep.frete.consulta_frete import RequestCalcPrecoPrazo
-from pysigep.frete.consulta_frete import ResponseCalcPrecoPrazo
-from pysigep.webservices.webservice_frete import WebserviceFrete
+from correiosapi.frete.consulta_frete import RequestCalcPrecoPrazo
+from correiosapi.frete.consulta_frete import ResponseCalcPrecoPrazo
+from correiosapi.webservices.webservice_frete import WebserviceFrete
 
 
 class TestWebserviceFrete(TestCase):

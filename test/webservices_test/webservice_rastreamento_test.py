@@ -27,11 +27,11 @@
 
 from unittest import TestCase
 
-from pysigep.rastreamento.consulta_rastreamento import RequestRastreamento
-from pysigep.rastreamento.consulta_rastreamento import ResponseRastreamento
-from pysigep.webservices.webservice_rastreamento import WebserviceRastreamento
-from pysigep.sigep_exceptions import ErroValidacaoXML
-from pysigep.sigep_exceptions import ErroConexaoComServidor
+from correiosapi.rastreamento.consulta_rastreamento import RequestRastreamento
+from correiosapi.rastreamento.consulta_rastreamento import ResponseRastreamento
+from correiosapi.webservices.webservice_rastreamento import WebserviceRastreamento
+from correiosapi.sigep_exceptions import ErroValidacaoXML
+from correiosapi.sigep_exceptions import ErroConexaoComServidor
 
 
 class TestWebserviceRastreamento(TestCase):

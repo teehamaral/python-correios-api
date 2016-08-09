@@ -27,9 +27,9 @@
 
 import xml.etree.cElementTree as Et
 
-from pysigep.base import RequestBaseSIGEP
-from pysigep.base import ResponseBase
-from pysigep.campos import CampoCEP
+from correiosapi.base import RequestBaseSIGEP
+from correiosapi.base import ResponseBase
+from correiosapi.campos import CampoCEP
 
 
 class RequestConsultaCEP(RequestBaseSIGEP):

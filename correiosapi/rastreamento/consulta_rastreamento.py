@@ -27,9 +27,9 @@
 
 import xml.etree.cElementTree as Et
 
-from pysigep.base import RequestBaseRastreamento
-from pysigep.base import ResponseBase
-from pysigep.campos import CampoString
+from correiosapi.base import RequestBaseRastreamento
+from correiosapi.base import ResponseBase
+from correiosapi.campos import CampoString
 
 
 class RequestRastreamento(RequestBaseRastreamento):

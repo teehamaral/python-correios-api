@@ -26,9 +26,9 @@
 ###############################################################################
 
 from unittest import TestCase
-from pysigep.base import RequestBaseSIGEP
-from pysigep.sigep.consulta_cep import RequestConsultaCEP
-from pysigep.sigep.consulta_cep import ResponseBuscaCEP
+from correiosapi.base import RequestBaseSIGEP
+from correiosapi.sigep.consulta_cep import RequestConsultaCEP
+from correiosapi.sigep.consulta_cep import ResponseBuscaCEP
 
 
 class TestRequestConsultaCEP(TestCase):

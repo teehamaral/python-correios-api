@@ -25,8 +25,8 @@
 #
 ###############################################################################
 
-from pysigep.rastreamento.consulta_rastreamento import RequestRastreamento
-from pysigep.rastreamento.consulta_rastreamento import ResponseRastreamento
+from correiosapi.rastreamento.consulta_rastreamento import RequestRastreamento
+from correiosapi.rastreamento.consulta_rastreamento import ResponseRastreamento
 
 from unittest import TestCase
 

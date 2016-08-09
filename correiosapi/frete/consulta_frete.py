@@ -27,12 +27,12 @@
 
 import xml.etree.cElementTree as Et
 
-from pysigep.base import RequestBaseFrete
-from pysigep.base import ResponseBase
-from pysigep.campos import CampoCEP
-from pysigep.campos import CampoString
-from pysigep.campos import CampoInteiro
-from pysigep.campos import CampoDecimal
+from correiosapi.base import RequestBaseFrete
+from correiosapi.base import ResponseBase
+from correiosapi.campos import CampoCEP
+from correiosapi.campos import CampoString
+from correiosapi.campos import CampoInteiro
+from correiosapi.campos import CampoDecimal
 
 
 class RequestCalcPrecoPrazo(RequestBaseFrete):

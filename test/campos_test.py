@@ -26,18 +26,18 @@
 ###############################################################################
 
 from unittest import TestCase
-from pysigep.sigep_exceptions import ErroCampoObrigatorio
-from pysigep.sigep_exceptions import ErroCampoTamanhoIncorreto
-from pysigep.sigep_exceptions import ErroCampoNaoNumerico
-from pysigep.sigep_exceptions import ErroTipoIncorreto
-from pysigep.campos import CampoBase
-from pysigep.campos import CampoString
-from pysigep.campos import CampoUnicode
-from pysigep.campos import CampoCEP
-from pysigep.campos import CampoCNPJ
-from pysigep.campos import CampoBooleano
-from pysigep.campos import CampoInteiro
-from pysigep.campos import CampoDecimal
+from correiosapi.sigep_exceptions import ErroCampoObrigatorio
+from correiosapi.sigep_exceptions import ErroCampoTamanhoIncorreto
+from correiosapi.sigep_exceptions import ErroCampoNaoNumerico
+from correiosapi.sigep_exceptions import ErroTipoIncorreto
+from correiosapi.campos import CampoBase
+from correiosapi.campos import CampoString
+from correiosapi.campos import CampoUnicode
+from correiosapi.campos import CampoCEP
+from correiosapi.campos import CampoCNPJ
+from correiosapi.campos import CampoBooleano
+from correiosapi.campos import CampoInteiro
+from correiosapi.campos import CampoDecimal
 
 
 class TestCampoBase(TestCase):

@@ -26,12 +26,12 @@
 ###############################################################################
 
 from unittest import TestCase
-from pysigep.base import TagBase, RequestBaseRastreamento
-from pysigep.base import RequestBase
-from pysigep.base import RequestBaseFrete
-from pysigep.base import RequestBaseSIGEP
-from pysigep.base import RequestBaseSIGEPAuthentication
-from pysigep.base import ResponseBase
+from correiosapi.base import TagBase, RequestBaseRastreamento
+from correiosapi.base import RequestBase
+from correiosapi.base import RequestBaseFrete
+from correiosapi.base import RequestBaseSIGEP
+from correiosapi.base import RequestBaseSIGEPAuthentication
+from correiosapi.base import ResponseBase
 
 
 class TestTagBase(TestCase):
